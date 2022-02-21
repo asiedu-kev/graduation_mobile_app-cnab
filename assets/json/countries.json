@@ -1,0 +1,1471 @@
+[
+  {
+    "name": "Malaysia",
+    "callingCodes": "+60",
+    "text": "Malaisie",
+    "map": "🇲🇾"
+  },
+  {
+    "name": "Haiti",
+    "callingCodes": "+509",
+    "text": "Haïti",
+    "map": "🇭🇹"
+  },
+  {
+    "name": "Tajikistan",
+    "callingCodes": "+992",
+    "text": "Tadjikistan",
+    "map": "🇹🇯"
+  },
+  {
+    "name": "American Samoa",
+    "callingCodes": "+1684",
+    "text": "Samoa américaines",
+    "map": "🇦🇸"
+  },
+  {
+    "name": "Italy",
+    "callingCodes": "+39",
+    "text": "Italie",
+    "map": "🇮🇹"
+  },
+  {
+    "name": "Mexico",
+    "callingCodes": "+52",
+    "text": "Mexique",
+    "map": "🇲🇽"
+  },
+  {
+    "name": "North Macedonia",
+    "callingCodes": "+389",
+    "text": "Macédoine du Nord",
+    "map": "🇲🇰"
+  },
+  {
+    "name": "Samoa",
+    "callingCodes": "+685",
+    "text": "Samoa",
+    "map": "🇼🇸"
+  },
+  {
+    "name": "Guernsey",
+    "callingCodes": "+44",
+    "text": "Guernesey",
+    "map": "🇬🇬"
+  },
+  {
+    "name": "Laos",
+    "callingCodes": "+856",
+    "text": "Laos",
+    "map": "🇱🇦"
+  },
+  {
+    "name": "Namibia",
+    "callingCodes": "+264",
+    "text": "Namibie",
+    "map": "🇳🇦"
+  },
+  {
+    "name": "British Virgin Islands",
+    "callingCodes": "+1284",
+    "text": "Îles Vierges britanniques",
+    "map": "🇻🇬"
+  },
+  {
+    "name": "Cayman Islands",
+    "callingCodes": "+1345",
+    "text": "Îles Caïmans",
+    "map": "🇰🇾"
+  },
+  {
+    "name": "Egypt",
+    "callingCodes": "+20",
+    "text": "Égypte",
+    "map": "🇪🇬"
+  },
+  {
+    "name": "Cambodia",
+    "callingCodes": "+855",
+    "text": "Cambodge",
+    "map": "🇰🇭"
+  },
+  {
+    "name": "Cook Islands",
+    "callingCodes": "+682",
+    "text": "Îles Cook",
+    "map": "🇨🇰"
+  },
+  {
+    "name": "Seychelles",
+    "callingCodes": "+248",
+    "text": "Seychelles",
+    "map": "🇸🇨"
+  },
+  {
+    "name": "Israel",
+    "callingCodes": "+972",
+    "text": "Israël",
+    "map": "🇮🇱"
+  },
+  {
+    "name": "Bolivia",
+    "callingCodes": "+591",
+    "text": "Bolivie",
+    "map": "🇧🇴"
+  },
+  {
+    "name": "United Arab Emirates",
+    "callingCodes": "+971",
+    "text": "Émirats arabes unis",
+    "map": "🇦🇪"
+  },
+  {
+    "name": "Grenada",
+    "callingCodes": "+1473",
+    "text": "Grenade",
+    "map": "🇬🇩"
+  },
+  {
+    "name": "China",
+    "callingCodes": "+86",
+    "text": "Chine",
+    "map": "🇨🇳"
+  },
+  {
+    "name": "Greenland",
+    "callingCodes": "+299",
+    "text": "Groenland",
+    "map": "🇬🇱"
+  },
+  {
+    "name": "Vanuatu",
+    "callingCodes": "+678",
+    "text": "Vanuatu",
+    "map": "🇻🇺"
+  },
+  {
+    "name": "Nauru",
+    "callingCodes": "+674",
+    "text": "Nauru",
+    "map": "🇳🇷"
+  },
+  {
+    "name": "Micronesia",
+    "callingCodes": "+691",
+    "text": "Micronésie",
+    "map": "🇫🇲"
+  },
+  {
+    "name": "Solomon Islands",
+    "callingCodes": "+677",
+    "text": "Îles Salomon",
+    "map": "🇸🇧"
+  },
+  {
+    "name": "United States Virgin Islands",
+    "callingCodes": "+1340",
+    "text": "Îles Vierges des États-Unis",
+    "map": "🇻🇮"
+  },
+  {
+    "name": "Turkey",
+    "callingCodes": "+90",
+    "text": "Turquie",
+    "map": "🇹🇷"
+  },
+  {
+    "name": "Kuwait",
+    "callingCodes": "+965",
+    "text": "Koweït",
+    "map": "🇰🇼"
+  },
+  {
+    "name": "Senegal",
+    "callingCodes": "+221",
+    "text": "Sénégal",
+    "map": "🇸🇳"
+  },
+  {
+    "name": "Burundi",
+    "callingCodes": "+257",
+    "text": "Burundi",
+    "map": "🇧🇮"
+  },
+  {
+    "name": "Serbia",
+    "callingCodes": "+381",
+    "text": "Serbie",
+    "map": "🇷🇸"
+  },
+  {
+    "name": "Brunei",
+    "callingCodes": "+673",
+    "text": "Brunei",
+    "map": "🇧🇳"
+  },
+  {
+    "name": "Bahamas",
+    "callingCodes": "+1242",
+    "text": "Bahamas",
+    "map": "🇧🇸"
+  },
+  {
+    "name": "Bahrain",
+    "callingCodes": "+973",
+    "text": "Bahreïn",
+    "map": "🇧🇭"
+  },
+  {
+    "name": "Dominican Republic",
+    "callingCodes": "+1809",
+    "text": "République dominicaine",
+    "map": "🇩🇴"
+  },
+  {
+    "name": "Curaçao",
+    "callingCodes": "+599",
+    "text": "Curaçao",
+    "map": "🇨🇼"
+  },
+  {
+    "name": "Norfolk Island",
+    "callingCodes": "+672",
+    "text": "Île Norfolk",
+    "map": "🇳🇫"
+  },
+  {
+    "name": "North Korea",
+    "callingCodes": "+850",
+    "text": "Corée du Nord",
+    "map": "🇰🇵"
+  },
+  {
+    "name": "Tokelau",
+    "callingCodes": "+690",
+    "text": "Tokelau",
+    "map": "🇹🇰"
+  },
+  {
+    "name": "South Sudan",
+    "callingCodes": "+211",
+    "text": "Soudan du Sud",
+    "map": "🇸🇸"
+  },
+  {
+    "name": "Aruba",
+    "callingCodes": "+297",
+    "text": "Aruba",
+    "map": "🇦🇼"
+  },
+  {
+    "name": "Czechia",
+    "callingCodes": "+420",
+    "text": "Tchéquie",
+    "map": "🇨🇿"
+  },
+  {
+    "name": "Guadeloupe",
+    "callingCodes": "+590",
+    "text": "Guadeloupe",
+    "map": "🇬🇵"
+  },
+  {
+    "name": "Syria",
+    "callingCodes": "+963",
+    "text": "Syrie",
+    "map": "🇸🇾"
+  },
+  {
+    "name": "Marshall Islands",
+    "callingCodes": "+692",
+    "text": "Îles Marshall",
+    "map": "🇲🇭"
+  },
+  {
+    "name": "Tanzania",
+    "callingCodes": "+255",
+    "text": "Tanzanie",
+    "map": "🇹🇿"
+  },
+  {
+    "name": "Papua New Guinea",
+    "callingCodes": "+675",
+    "text": "Papouasie-Nouvelle-Guinée",
+    "map": "🇵🇬"
+  },
+  {
+    "name": "Eritrea",
+    "callingCodes": "+291",
+    "text": "Érythrée",
+    "map": "🇪🇷"
+  },
+  {
+    "name": "Moldova",
+    "callingCodes": "+373",
+    "text": "Moldavie",
+    "map": "🇲🇩"
+  },
+  {
+    "name": "Uzbekistan",
+    "callingCodes": "+998",
+    "text": "Ouzbékistan",
+    "map": "🇺🇿"
+  },
+  {
+    "name": "France",
+    "callingCodes": "+33",
+    "text": "France",
+    "map": "🇫🇷"
+  },
+  {
+    "name": "Uruguay",
+    "callingCodes": "+598",
+    "text": "Uruguay",
+    "map": "🇺🇾"
+  },
+  {
+    "name": "DR Congo",
+    "callingCodes": "+243",
+    "text": "Congo (Rép. dém.)",
+    "map": "🇨🇩"
+  },
+  {
+    "name": "Saint Lucia",
+    "callingCodes": "+1758",
+    "text": "Sainte-Lucie",
+    "map": "🇱🇨"
+  },
+  {
+    "name": "Tuvalu",
+    "callingCodes": "+688",
+    "text": "Tuvalu",
+    "map": "🇹🇻"
+  },
+  {
+    "name": "Canada",
+    "callingCodes": "+1",
+    "text": "Canada",
+    "map": "🇨🇦"
+  },
+  {
+    "name": "Switzerland",
+    "callingCodes": "+41",
+    "text": "Suisse",
+    "map": "🇨🇭"
+  },
+  {
+    "name": "Gabon",
+    "callingCodes": "+241",
+    "text": "Gabon",
+    "map": "🇬🇦"
+  },
+  {
+    "name": "Libya",
+    "callingCodes": "+218",
+    "text": "Libye",
+    "map": "🇱🇾"
+  },
+  {
+    "name": "Monaco",
+    "callingCodes": "+377",
+    "text": "Monaco",
+    "map": "🇲🇨"
+  },
+  {
+    "name": "United Kingdom",
+    "callingCodes": "+44",
+    "text": "Royaume-Uni",
+    "map": "🇬🇧"
+  },
+  {
+    "name": "Rwanda",
+    "callingCodes": "+250",
+    "text": "Rwanda",
+    "map": "🇷🇼"
+  },
+  {
+    "name": "Bhutan",
+    "callingCodes": "+975",
+    "text": "Bhoutan",
+    "map": "🇧🇹"
+  },
+  {
+    "name": "Saint Barthélemy",
+    "callingCodes": "+590",
+    "text": "Saint-Barthélemy",
+    "map": "🇧🇱"
+  },
+  {
+    "name": "Botswana",
+    "callingCodes": "+267",
+    "text": "Botswana",
+    "map": "🇧🇼"
+  },
+  {
+    "name": "India",
+    "callingCodes": "+91",
+    "text": "Inde",
+    "map": "🇮🇳"
+  },
+  {
+    "name": "New Zealand",
+    "callingCodes": "+64",
+    "text": "Nouvelle-Zélande",
+    "map": "🇳🇿"
+  },
+  {
+    "name": "Ireland",
+    "callingCodes": "+353",
+    "text": "Irlande",
+    "map": "🇮🇪"
+  },
+  {
+    "name": "Macau",
+    "callingCodes": "+853",
+    "text": "Macao",
+    "map": "🇲🇴"
+  },
+  {
+    "name": "New Caledonia",
+    "callingCodes": "+687",
+    "text": "Nouvelle-Calédonie",
+    "map": "🇳🇨"
+  },
+  {
+    "name": "Bulgaria",
+    "callingCodes": "+359",
+    "text": "Bulgarie",
+    "map": "🇧🇬"
+  },
+  {
+    "name": "Eswatini",
+    "callingCodes": "+268",
+    "text": "Swaziland",
+    "map": "🇸🇿"
+  },
+  {
+    "name": "Algeria",
+    "callingCodes": "+213",
+    "text": "Algérie",
+    "map": "🇩🇿"
+  },
+  {
+    "name": "Kenya",
+    "callingCodes": "+254",
+    "text": "Kenya",
+    "map": "🇰🇪"
+  },
+  {
+    "name": "Mali",
+    "callingCodes": "+223",
+    "text": "Mali",
+    "map": "🇲🇱"
+  },
+  {
+    "name": "Venezuela",
+    "callingCodes": "+58",
+    "text": "Venezuela",
+    "map": "🇻🇪"
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "callingCodes": "+387",
+    "text": "Bosnie-Herzégovine",
+    "map": "🇧🇦"
+  },
+  {
+    "name": "Somalia",
+    "callingCodes": "+252",
+    "text": "Somalie",
+    "map": "🇸🇴"
+  },
+  {
+    "name": "Norway",
+    "callingCodes": "+47",
+    "text": "Norvège",
+    "map": "🇳🇴"
+  },
+  {
+    "name": "Gambia",
+    "callingCodes": "+220",
+    "text": "Gambie",
+    "map": "🇬🇲"
+  },
+  {
+    "name": "Estonia",
+    "callingCodes": "+372",
+    "text": "Estonie",
+    "map": "🇪🇪"
+  },
+  {
+    "name": "Belize",
+    "callingCodes": "+501",
+    "text": "Belize",
+    "map": "🇧🇿"
+  },
+  {
+    "name": "Paraguay",
+    "callingCodes": "+595",
+    "text": "Paraguay",
+    "map": "🇵🇾"
+  },
+  {
+    "name": "Guinea",
+    "callingCodes": "+224",
+    "text": "Guinée",
+    "map": "🇬🇳"
+  },
+  {
+    "name": "Luxembourg",
+    "callingCodes": "+352",
+    "text": "Luxembourg",
+    "map": "🇱🇺"
+  },
+  {
+    "name": "South Africa",
+    "callingCodes": "+27",
+    "text": "Afrique du Sud",
+    "map": "🇿🇦"
+  },
+  {
+    "name": "Jordan",
+    "callingCodes": "+962",
+    "text": "Jordanie",
+    "map": "🇯🇴"
+  },
+  {
+    "name": "Timor-Leste",
+    "callingCodes": "+670",
+    "text": "Timor oriental",
+    "map": "🇹🇱"
+  },
+  {
+    "name": "Zimbabwe",
+    "callingCodes": "+263",
+    "text": "Zimbabwe",
+    "map": "🇿🇼"
+  },
+  {
+    "name": "Mozambique",
+    "callingCodes": "+258",
+    "text": "Mozambique",
+    "map": "🇲🇿"
+  },
+  {
+    "name": "Caribbean Netherlands",
+    "callingCodes": "+599",
+    "text": "Pays-Bas caribéens"
+  },
+  {
+    "name": "Chile",
+    "callingCodes": "+56",
+    "text": "Chili",
+    "map": "🇨🇱"
+  },
+  {
+    "name": "Germany",
+    "callingCodes": "+49",
+    "text": "Allemagne",
+    "map": "🇩🇪"
+  },
+  {
+    "name": "El Salvador",
+    "callingCodes": "+503",
+    "text": "Salvador",
+    "map": "🇸🇻"
+  },
+  {
+    "name": "Guatemala",
+    "callingCodes": "+502",
+    "text": "Guatemala",
+    "map": "🇬🇹"
+  },
+  {
+    "name": "Lesotho",
+    "callingCodes": "+266",
+    "text": "Lesotho",
+    "map": "🇱🇸"
+  },
+  {
+    "name": "Peru",
+    "callingCodes": "+51",
+    "text": "Pérou",
+    "map": "🇵🇪"
+  },
+  {
+    "name": "Sint Maarten",
+    "callingCodes": "+1721",
+    "text": "Saint-Martin",
+    "map": "🇸🇽"
+  },
+  {
+    "name": "Djibouti",
+    "callingCodes": "+253",
+    "text": "Djibouti",
+    "map": "🇩🇯"
+  },
+  {
+    "name": "French Southern and Antarctic Lands",
+    "callingCodes": "+262",
+    "text": "Terres australes et antarctiques françaises",
+    "map": "🇹🇫"
+  },
+  {
+    "name": "Australia",
+    "callingCodes": "+61",
+    "text": "Australie",
+    "map": "🇦🇺"
+  },
+  {
+    "name": "Chad",
+    "callingCodes": "+235",
+    "text": "Tchad",
+    "map": "🇹🇩"
+  },
+  {
+    "name": "São Tomé and Príncipe",
+    "callingCodes": "+239",
+    "text": "São Tomé et Príncipe",
+    "map": "🇸🇹"
+  },
+  {
+    "name": "United States",
+    "callingCodes": "+1201",
+    "text": "États-Unis",
+    "map": "🇺🇸"
+  },
+  {
+    "name": "Spain",
+    "callingCodes": "+34",
+    "text": "Espagne",
+    "map": "🇪🇸"
+  },
+  {
+    "name": "Azerbaijan",
+    "callingCodes": "+994",
+    "text": "Azerbaïdjan",
+    "map": "🇦🇿"
+  },
+  {
+    "name": "Denmark",
+    "callingCodes": "+45",
+    "text": "Danemark",
+    "map": "🇩🇰"
+  },
+  {
+    "name": "Fiji",
+    "callingCodes": "+679",
+    "text": "Fidji",
+    "map": "🇫🇯"
+  },
+  {
+    "name": "Poland",
+    "callingCodes": "+48",
+    "text": "Pologne",
+    "map": "🇵🇱"
+  },
+  {
+    "name": "Sierra Leone",
+    "callingCodes": "+232",
+    "text": "Sierra Leone",
+    "map": "🇸🇱"
+  },
+  {
+    "name": "Palestine",
+    "callingCodes": "+970",
+    "text": "Palestine",
+    "map": "🇵🇸"
+  },
+  {
+    "name": "Mauritania",
+    "callingCodes": "+222",
+    "text": "Mauritanie",
+    "map": "🇲🇷"
+  },
+  {
+    "name": "Russia",
+    "callingCodes": "+73",
+    "text": "Russie",
+    "map": "🇷🇺"
+  },
+  {
+    "name": "Malta",
+    "callingCodes": "+356",
+    "text": "Malte",
+    "map": "🇲🇹"
+  },
+  {
+    "name": "Nicaragua",
+    "callingCodes": "+505",
+    "text": "Nicaragua",
+    "map": "🇳🇮"
+  },
+  {
+    "name": "Svalbard and Jan Mayen",
+    "callingCodes": "+4779",
+    "text": "Svalbard et Jan Mayen",
+    "map": "🇸🇯"
+  },
+  {
+    "name": "San Marino",
+    "callingCodes": "+378",
+    "text": "Saint-Marin",
+    "map": "🇸🇲"
+  },
+  {
+    "name": "Ghana",
+    "callingCodes": "+233",
+    "text": "Ghana",
+    "map": "🇬🇭"
+  },
+  {
+    "name": "Honduras",
+    "callingCodes": "+504",
+    "text": "Honduras",
+    "map": "🇭🇳"
+  },
+  {
+    "name": "Maldives",
+    "callingCodes": "+960",
+    "text": "Maldives",
+    "map": "🇲🇻"
+  },
+  {
+    "name": "Nepal",
+    "callingCodes": "+977",
+    "text": "Népal",
+    "map": "🇳🇵"
+  },
+  {
+    "name": "Taiwan",
+    "callingCodes": "+886",
+    "text": "Taïwan",
+    "map": "🇹🇼"
+  },
+  {
+    "name": "Niger",
+    "callingCodes": "+227",
+    "text": "Niger",
+    "map": "🇳🇪"
+  },
+  {
+    "name": "Slovakia",
+    "callingCodes": "+421",
+    "text": "Slovaquie",
+    "map": "🇸🇰"
+  },
+  {
+    "name": "Lebanon",
+    "callingCodes": "+961",
+    "text": "Liban",
+    "map": "🇱🇧"
+  },
+  {
+    "name": "Oman",
+    "callingCodes": "+968",
+    "text": "Oman",
+    "map": "🇴🇲"
+  },
+  {
+    "name": "Niue",
+    "callingCodes": "+683",
+    "text": "Niue",
+    "map": "🇳🇺"
+  },
+  {
+    "name": "Anguilla",
+    "callingCodes": "+1264",
+    "text": "Anguilla",
+    "map": "🇦🇮"
+  },
+  {
+    "name": "Singapore",
+    "callingCodes": "+65",
+    "text": "Singapour",
+    "map": "🇸🇬"
+  },
+  {
+    "name": "Ivory Coast",
+    "callingCodes": "+225",
+    "text": "Côte d'Ivoire",
+    "map": "🇨🇮"
+  },
+  {
+    "name": "Kosovo",
+    "callingCodes": "+383",
+    "text": "Kosovo",
+    "map": "🇽🇰"
+  },
+  {
+    "name": "Jersey",
+    "callingCodes": "+44",
+    "text": "Jersey",
+    "map": "🇯🇪"
+  },
+  {
+    "name": "Romania",
+    "callingCodes": "+40",
+    "text": "Roumanie",
+    "map": "🇷🇴"
+  },
+  {
+    "name": "Slovenia",
+    "callingCodes": "+386",
+    "text": "Slovénie",
+    "map": "🇸🇮"
+  },
+  {
+    "name": "Isle of Man",
+    "callingCodes": "+44",
+    "text": "Île de Man",
+    "map": "🇮🇲"
+  },
+  {
+    "name": "Belarus",
+    "callingCodes": "+375",
+    "text": "Biélorussie",
+    "map": "🇧🇾"
+  },
+  {
+    "name": "Cuba",
+    "callingCodes": "+53",
+    "text": "Cuba",
+    "map": "🇨🇺"
+  },
+  {
+    "name": "Montserrat",
+    "callingCodes": "+1664",
+    "text": "Montserrat",
+    "map": "🇲🇸"
+  },
+  {
+    "name": "Montenegro",
+    "callingCodes": "+382",
+    "text": "Monténégro",
+    "map": "🇲🇪"
+  },
+  {
+    "name": "Kiribati",
+    "callingCodes": "+686",
+    "text": "Kiribati",
+    "map": "🇰🇮"
+  },
+  {
+    "name": "Liechtenstein",
+    "callingCodes": "+423",
+    "text": "Liechtenstein",
+    "map": "🇱🇮"
+  },
+  {
+    "name": "Palau",
+    "callingCodes": "+680",
+    "text": "Palaos (Palau)",
+    "map": "🇵🇼"
+  },
+  {
+    "name": "Réunion",
+    "callingCodes": "+262",
+    "text": "Réunion",
+    "map": "🇷🇪"
+  },
+  {
+    "name": "Saint Martin",
+    "callingCodes": "+590",
+    "text": "Saint-Martin",
+    "map": "🇲🇫"
+  },
+  {
+    "name": "Pitcairn Islands",
+    "callingCodes": "+64",
+    "text": "Îles Pitcairn",
+    "map": "🇵🇳"
+  },
+  {
+    "name": "Falkland Islands",
+    "callingCodes": "+500",
+    "text": "Îles Malouines",
+    "map": "🇫🇰"
+  },
+  {
+    "name": "Sweden",
+    "callingCodes": "+46",
+    "text": "Suède",
+    "map": "🇸🇪"
+  },
+  {
+    "name": "Hungary",
+    "callingCodes": "+36",
+    "text": "Hongrie",
+    "map": "🇭🇺"
+  },
+  {
+    "name": "Morocco",
+    "callingCodes": "+212",
+    "text": "Maroc",
+    "map": "🇲🇦"
+  },
+  {
+    "name": "Colombia",
+    "callingCodes": "+57",
+    "text": "Colombie",
+    "map": "🇨🇴"
+  },
+  {
+    "name": "Sudan",
+    "callingCodes": "+249",
+    "text": "Soudan",
+    "map": "🇸🇩"
+  },
+  {
+    "name": "Hong Kong",
+    "callingCodes": "+852",
+    "text": "Hong Kong",
+    "map": "🇭🇰"
+  },
+  {
+    "name": "Saint Helena, Ascension and Tristan da Cunha",
+    "callingCodes": "+290",
+    "text": "Sainte-Hélène, Ascension et Tristan da Cunha",
+    "map": "🇸🇭"
+  },
+  {
+    "name": "Turkmenistan",
+    "callingCodes": "+993",
+    "text": "Turkménistan",
+    "map": "🇹🇲"
+  },
+  {
+    "name": "Togo",
+    "callingCodes": "+228",
+    "text": "Togo",
+    "map": "🇹🇬"
+  },
+  {
+    "name": "Argentina",
+    "callingCodes": "+54",
+    "text": "Argentine",
+    "map": "🇦🇷"
+  },
+  {
+    "name": "Saudi Arabia",
+    "callingCodes": "+966",
+    "text": "Arabie Saoudite",
+    "map": "🇸🇦"
+  },
+  {
+    "name": "Bermuda",
+    "callingCodes": "+1441",
+    "text": "Bermudes",
+    "map": "🇧🇲"
+  },
+  {
+    "name": "Ecuador",
+    "callingCodes": "+593",
+    "text": "Équateur",
+    "map": "🇪🇨"
+  },
+  {
+    "name": "Ethiopia",
+    "callingCodes": "+251",
+    "text": "Éthiopie",
+    "map": "🇪🇹"
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "callingCodes": "+1869",
+    "text": "Saint-Christophe-et-Niévès",
+    "map": "🇰🇳"
+  },
+  {
+    "name": "Mauritius",
+    "callingCodes": "+230",
+    "text": "Île Maurice",
+    "map": "🇲🇺"
+  },
+  {
+    "name": "Netherlands",
+    "callingCodes": "+31",
+    "text": "Pays-Bas",
+    "map": "🇳🇱"
+  },
+  {
+    "name": "Myanmar",
+    "callingCodes": "+95",
+    "text": "Birmanie",
+    "map": "🇲🇲"
+  },
+  {
+    "name": "Cocos (Keeling) Islands",
+    "callingCodes": "+61",
+    "text": "Îles Cocos",
+    "map": "🇨🇨"
+  },
+  {
+    "name": "Liberia",
+    "callingCodes": "+231",
+    "text": "Liberia",
+    "map": "🇱🇷"
+  },
+  {
+    "name": "Turks and Caicos Islands",
+    "callingCodes": "+1649",
+    "text": "Îles Turques-et-Caïques",
+    "map": "🇹🇨"
+  },
+  {
+    "name": "Tunisia",
+    "callingCodes": "+216",
+    "text": "Tunisie",
+    "map": "🇹🇳"
+  },
+  {
+    "name": "Finland",
+    "callingCodes": "+358",
+    "text": "Finlande",
+    "map": "🇫🇮"
+  },
+  {
+    "name": "Iceland",
+    "callingCodes": "+354",
+    "text": "Islande",
+    "map": "🇮🇸"
+  },
+  {
+    "name": "Northern Mariana Islands",
+    "callingCodes": "+1670",
+    "text": "Îles Mariannes du Nord",
+    "map": "🇲🇵"
+  },
+  {
+    "name": "Guam",
+    "callingCodes": "+1671",
+    "text": "Guam",
+    "map": "🇬🇺"
+  },
+  {
+    "name": "Jamaica",
+    "callingCodes": "+1876",
+    "text": "Jamaïque",
+    "map": "🇯🇲"
+  },
+  {
+    "name": "Burkina Faso",
+    "callingCodes": "+226",
+    "text": "Burkina Faso",
+    "map": "🇧🇫"
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "callingCodes": "+1268",
+    "text": "Antigua-et-Barbuda",
+    "map": "🇦🇬"
+  },
+  {
+    "name": "Mongolia",
+    "callingCodes": "+976",
+    "text": "Mongolie",
+    "map": "🇲🇳"
+  },
+  {
+    "name": "Benin",
+    "callingCodes": "+229",
+    "text": "Bénin",
+    "map": "🇧🇯"
+  },
+  {
+    "name": "Indonesia",
+    "callingCodes": "+62",
+    "text": "Indonésie",
+    "map": "🇮🇩"
+  },
+  {
+    "name": "Georgia",
+    "callingCodes": "+995",
+    "text": "Géorgie",
+    "map": "🇬🇪"
+  },
+  {
+    "name": "Albania",
+    "callingCodes": "+355",
+    "text": "Albanie",
+    "map": "🇦🇱"
+  },
+  {
+    "name": "Brazil",
+    "callingCodes": "+55",
+    "text": "Brésil",
+    "map": "🇧🇷"
+  },
+  {
+    "name": "Gibraltar",
+    "callingCodes": "+350",
+    "text": "Gibraltar",
+    "map": "🇬🇮"
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "callingCodes": "+1784",
+    "text": "Saint-Vincent-et-les-Grenadines",
+    "map": "🇻🇨"
+  },
+  {
+    "name": "Iran",
+    "callingCodes": "+98",
+    "text": "Iran",
+    "map": "🇮🇷"
+  },
+  {
+    "name": "Portugal",
+    "callingCodes": "+351",
+    "text": "Portugal",
+    "map": "🇵🇹"
+  },
+  {
+    "name": "Cameroon",
+    "callingCodes": "+237",
+    "text": "Cameroun",
+    "map": "🇨🇲"
+  },
+  {
+    "name": "Dominica",
+    "callingCodes": "+1767",
+    "text": "Dominique",
+    "map": "🇩🇲"
+  },
+  {
+    "name": "Nigeria",
+    "callingCodes": "+234",
+    "text": "Nigéria",
+    "map": "🇳🇬"
+  },
+  {
+    "name": "South Korea",
+    "callingCodes": "+82",
+    "text": "Corée du Sud",
+    "map": "🇰🇷"
+  },
+  {
+    "name": "Angola",
+    "callingCodes": "+244",
+    "text": "Angola",
+    "map": "🇦🇴"
+  },
+  {
+    "name": "Comoros",
+    "callingCodes": "+269",
+    "text": "Comores",
+    "map": "🇰🇲"
+  },
+  {
+    "name": "Greece",
+    "callingCodes": "+30",
+    "text": "Grèce",
+    "map": "🇬🇷"
+  },
+  {
+    "name": "Belgium",
+    "callingCodes": "+32",
+    "text": "Belgique",
+    "map": "🇧🇪"
+  },
+  {
+    "name": "Puerto Rico",
+    "callingCodes": "+1787",
+    "text": "Porto Rico",
+    "map": "🇵🇷"
+  },
+  {
+    "name": "Republic of the Congo",
+    "callingCodes": "+242",
+    "text": "Congo",
+    "map": "🇨🇬"
+  },
+  {
+    "name": "Barbados",
+    "callingCodes": "+1246",
+    "text": "Barbade",
+    "map": "🇧🇧"
+  },
+  {
+    "name": "Equatorial Guinea",
+    "callingCodes": "+240",
+    "text": "Guinée équatoriale",
+    "map": "🇬🇶"
+  },
+  {
+    "name": "Thailand",
+    "callingCodes": "+66",
+    "text": "Thaïlande",
+    "map": "🇹🇭"
+  },
+  {
+    "name": "Christmas Island",
+    "callingCodes": "+61",
+    "text": "Île Christmas",
+    "map": "🇨🇽"
+  },
+  {
+    "name": "Guinea-Bissau",
+    "callingCodes": "+245",
+    "text": "Guinée-Bissau",
+    "map": "🇬🇼"
+  },
+  {
+    "name": "Panama",
+    "callingCodes": "+507",
+    "text": "Panama",
+    "map": "🇵🇦"
+  },
+  {
+    "name": "Latvia",
+    "callingCodes": "+371",
+    "text": "Lettonie",
+    "map": "🇱🇻"
+  },
+  {
+    "name": "Guyana",
+    "callingCodes": "+592",
+    "text": "Guyana",
+    "map": "🇬🇾"
+  },
+  {
+    "name": "Lithuania",
+    "callingCodes": "+370",
+    "text": "Lituanie",
+    "map": "🇱🇹"
+  },
+  {
+    "name": "Yemen",
+    "callingCodes": "+967",
+    "text": "Yémen",
+    "map": "🇾🇪"
+  },
+  {
+    "name": "Martinique",
+    "callingCodes": "+596",
+    "text": "Martinique",
+    "map": "🇲🇶"
+  },
+  {
+    "name": "French Guiana",
+    "callingCodes": "+594",
+    "text": "Guyane",
+    "map": "🇬🇫"
+  },
+  {
+    "name": "Suriname",
+    "callingCodes": "+597",
+    "text": "Surinam",
+    "map": "🇸🇷"
+  },
+  {
+    "name": "United States Minor Outlying Islands",
+    "callingCodes": "+268",
+    "text": "Îles mineures éloignées des États-Unis",
+    "map": "🇺🇲"
+  },
+  {
+    "name": "Cyprus",
+    "callingCodes": "+357",
+    "text": "Chypre",
+    "map": "🇨🇾"
+  },
+  {
+    "name": "Cape Verde",
+    "callingCodes": "+238",
+    "text": "Îles du Cap-Vert",
+    "map": "🇨🇻"
+  },
+  {
+    "name": "Wallis and Futuna",
+    "callingCodes": "+681",
+    "text": "Wallis-et-Futuna",
+    "map": "🇼🇫"
+  },
+  {
+    "name": "Mayotte",
+    "callingCodes": "+262",
+    "text": "Mayotte",
+    "map": "🇾🇹"
+  },
+  {
+    "name": "Vietnam",
+    "callingCodes": "+84",
+    "text": "Viêt Nam",
+    "map": "🇻🇳"
+  },
+  {
+    "name": "French Polynesia",
+    "callingCodes": "+689",
+    "text": "Polynésie française",
+    "map": "🇵🇫"
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "callingCodes": "+1868",
+    "text": "Trinité-et-Tobago",
+    "map": "🇹🇹"
+  },
+  {
+    "name": "Malawi",
+    "callingCodes": "+265",
+    "text": "Malawi",
+    "map": "🇲🇼"
+  },
+  {
+    "name": "Croatia",
+    "callingCodes": "+385",
+    "text": "Croatie",
+    "map": "🇭🇷"
+  },
+  {
+    "name": "Madagascar",
+    "callingCodes": "+261",
+    "text": "Madagascar",
+    "map": "🇲🇬"
+  },
+  {
+    "name": "Armenia",
+    "callingCodes": "+374",
+    "text": "Arménie",
+    "map": "🇦🇲"
+  },
+  {
+    "name": "Austria",
+    "callingCodes": "+43",
+    "text": "Autriche",
+    "map": "🇦🇹"
+  },
+  {
+    "name": "Saint Pierre and Miquelon",
+    "callingCodes": "+508",
+    "text": "Saint-Pierre-et-Miquelon",
+    "map": "🇵🇲"
+  },
+  {
+    "name": "Afghanistan",
+    "callingCodes": "+93",
+    "text": "Afghanistan",
+    "map": "🇦🇫"
+  },
+  {
+    "name": "Central African Republic",
+    "callingCodes": "+236",
+    "text": "République centrafricaine",
+    "map": "🇨🇫"
+  },
+  {
+    "name": "Zambia",
+    "callingCodes": "+260",
+    "text": "Zambie",
+    "map": "🇿🇲"
+  },
+  {
+    "name": "Bangladesh",
+    "callingCodes": "+880",
+    "text": "Bangladesh",
+    "map": "🇧🇩"
+  },
+  {
+    "name": "Costa Rica",
+    "callingCodes": "+506",
+    "text": "Costa Rica",
+    "map": "🇨🇷"
+  },
+  {
+    "name": "Faroe Islands",
+    "callingCodes": "+298",
+    "text": "Îles Féroé",
+    "map": "🇫🇴"
+  },
+  {
+    "name": "Uganda",
+    "callingCodes": "+256",
+    "text": "Ouganda",
+    "map": "🇺🇬"
+  },
+  {
+    "name": "Kazakhstan",
+    "callingCodes": "+76",
+    "text": "Kazakhstan",
+    "map": "🇰🇿"
+  },
+  {
+    "name": "Bouvet Island",
+    "callingCodes": "+47",
+    "text": "Île Bouvet",
+    "map": "🇧🇻"
+  },
+  {
+    "name": "South Georgia",
+    "callingCodes": "+500",
+    "text": "Géorgie du Sud-et-les Îles Sandwich du Sud",
+    "map": "🇬🇸"
+  },
+  {
+    "name": "Tonga",
+    "callingCodes": "+676",
+    "text": "Tonga",
+    "map": "🇹🇴"
+  },
+  {
+    "name": "Ukraine",
+    "callingCodes": "+380",
+    "text": "Ukraine",
+    "map": "🇺🇦"
+  },
+  {
+    "name": "Qatar",
+    "callingCodes": "+974",
+    "text": "Qatar",
+    "map": "🇶🇦"
+  },
+  {
+    "name": "Andorra",
+    "callingCodes": "+376",
+    "text": "Andorre",
+    "map": "🇦🇩"
+  },
+  {
+    "name": "Iraq",
+    "callingCodes": "+964",
+    "text": "Irak",
+    "map": "🇮🇶"
+  },
+  {
+    "name": "Sri Lanka",
+    "callingCodes": "+94",
+    "text": "Sri Lanka",
+    "map": "🇱🇰"
+  },
+  {
+    "name": "Japan",
+    "callingCodes": "+81",
+    "text": "Japon",
+    "map": "🇯🇵"
+  },
+  {
+    "name": "Kyrgyzstan",
+    "callingCodes": "+996",
+    "text": "Kirghizistan",
+    "map": "🇰🇬"
+  },
+  {
+    "name": "Philippines",
+    "callingCodes": "+63",
+    "text": "Philippines",
+    "map": "🇵🇭"
+  },
+  {
+    "name": "Pakistan",
+    "callingCodes": "+92",
+    "text": "Pakistan",
+    "map": "🇵🇰"
+  },
+  {
+    "name": "British Indian Ocean Territory",
+    "callingCodes": "+246",
+    "text": "Territoire britannique de l'océan Indien",
+    "map": "🇮🇴"
+  }
+]
