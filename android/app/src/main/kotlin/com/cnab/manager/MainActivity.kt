@@ -1,4 +1,4 @@
-package com.kgeek.vians
+package com.cnab.manager
 
 import io.flutter.embedding.android.FlutterActivity
 

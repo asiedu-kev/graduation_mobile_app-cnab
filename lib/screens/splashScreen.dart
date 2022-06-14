@@ -1,20 +1,21 @@
 import 'dart:async';
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
-import 'package:vians/utils/design.util.dart';
-import 'package:vians/screens/homePage.dart';
 
+import 'package:cnab/screens/connexion.dart';
+import 'package:cnab/screens/homePage.dart';
+import 'package:flutter/material.dart';
+
+import '../services/storage_service.dart';
 
 class SplashScreen extends StatefulWidget {
   _SplashScreenState createState() => _SplashScreenState();
 }
 
 class _SplashScreenState extends State<SplashScreen> {
-
+  bool? hasBeenOnBoarded = StorageService().getHasBeenOnBoarded();
   @override
-  void initState(){
+  void initState() {
     super.initState();
-    Timer(Duration(seconds: 3), () => Navigator.push(context, MaterialPageRoute(builder: (context) => HomePage())));
+    Timer(Duration(seconds: 3), () => Navigator.push(context, MaterialPageRoute(builder: (context) => hasBeenOnBoarded! ? Connexion() : HomePage())));
   }
 
   @override
@@ -30,7 +31,10 @@ class _SplashScreenState extends State<SplashScreen> {
           children: <Widget>[
             Column(
               children: [
-                Image.asset('assets/png/logo.png', height: 100,),
+                Image.asset(
+                  'assets/png/logo.png',
+                  height: 100,
+                ),
               ],
             ),
             // CircularProgressIndicator(),
@@ -40,4 +44,3 @@ class _SplashScreenState extends State<SplashScreen> {
     );
   }
 }
-

@@ -1,7 +1,8 @@
 import 'dart:async';
 import 'dart:convert';
+
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show  rootBundle;
+import 'package:flutter/services.dart' show rootBundle;
 
 // Classe personnaliser pour la gestion de la traduction
 
@@ -15,13 +16,14 @@ class Translations {
   Locale locale = Locale('fr');
   static Map<dynamic, dynamic> _localizedValues = Map();
 
-  static Translations of(BuildContext context){
+  static Translations? of(BuildContext context) {
     return Localizations.of<Translations>(context, Translations);
   }
 
   String text(String key) {
     return _localizedValues[key] ?? '** $key not found';
   }
+
   static Future<Translations> load(Locale locale) async {
     Translations translations = new Translations(locale);
     String jsonContent = await rootBundle.loadString("locale/i18n_${locale.languageCode}.json");
@@ -36,7 +38,7 @@ class TranslationsDelegate extends LocalizationsDelegate<Translations> {
   const TranslationsDelegate();
 
   @override
-  bool isSupported(Locale locale) => ['en','fr'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => ['en', 'fr'].contains(locale.languageCode);
 
   @override
   Future<Translations> load(Locale locale) => Translations.load(locale);

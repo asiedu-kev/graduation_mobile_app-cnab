@@ -1,9 +1,10 @@
+import 'package:cnab/screens/inscription.dart';
+import 'package:cnab/services/storage_service.dart';
 import 'package:flutter/material.dart';
-import 'package:vians/screens/inscription.dart';
+
 import '../components/QuoteButtonComponent.dart';
 import '../components/secondButton.dart';
 import 'connexion.dart';
-
 
 class HomePage extends StatefulWidget {
   //const HomePage({Key? key}) : super(key: key);
@@ -13,6 +14,12 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  @override
+  void initState() {
+    super.initState();
+    StorageService().setHasBeenOnBoarded(true);
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -26,23 +33,45 @@ class _HomePageState extends State<HomePage> {
           children: <Widget>[
             Column(
               children: [
-                Image.asset('assets/png/logo.png', height: 75,),
-                SizedBox(height: 50,),
-                Container(child: Text('Bonjour !', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),),),
-                SizedBox(height: 25,),
-                Container(child: Text('Bienvenue sur Lorem Ipsum\’application qui vous permet de gérer efficacement vos membres de pool.', style: TextStyle(fontSize: 15), textAlign: TextAlign.center,),),
-                SizedBox(height: 50,),
+                Image.asset(
+                  'assets/png/logo.png',
+                  height: 75,
+                ),
+                SizedBox(
+                  height: 50,
+                ),
+                Container(
+                  child: Text(
+                    'Bonjour !',
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                  ),
+                ),
+                SizedBox(
+                  height: 25,
+                ),
+                Container(
+                  child: Text(
+                    'Bienvenue sur Lorem Ipsum\’application qui vous permet de gérer efficacement vos membres de pool.',
+                    style: TextStyle(fontSize: 15),
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+                SizedBox(
+                  height: 50,
+                ),
                 Container(
                   child: Center(
                     child: bouton(
-                      onClick: () async{
+                      onClick: () async {
                         Navigator.push(context, MaterialPageRoute(builder: (context) => Inscription()));
                       },
                       btnText: "Commencer",
                     ),
                   ),
                 ),
-                SizedBox(height: 35,),
+                SizedBox(
+                  height: 35,
+                ),
                 Container(
                   decoration: BoxDecoration(
                     boxShadow: [
@@ -55,7 +84,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   child: Center(
                     child: secondBouton(
-                      onClick: () async{
+                      onClick: () async {
                         Navigator.push(context, MaterialPageRoute(builder: (context) => Connexion()));
                       },
                       btnText: "J'ai deja un compte",

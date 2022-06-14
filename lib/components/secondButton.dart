@@ -1,12 +1,13 @@
+import 'package:cnab/utils/design.util.dart';
 import 'package:flutter/material.dart';
-import 'package:vians/utils/design.util.dart';
+
 import '../utils/design.util.dart';
 
 class secondBouton extends StatelessWidget {
   var btnText = "";
   var onClick;
 
-  secondBouton({this.btnText, this.onClick});
+  secondBouton({required this.btnText, this.onClick});
 
   @override
   Widget build(BuildContext context) {
@@ -16,11 +17,10 @@ class secondBouton extends StatelessWidget {
         width: MediaQuery.of(context).size.height * 0.52,
         height: 50,
         decoration: BoxDecoration(
-          gradient: LinearGradient(
-              colors: [inactiveColorWhite,
-                inactiveColorWhite,],
-              end: Alignment.centerLeft,
-              begin: Alignment.centerRight),
+          gradient: LinearGradient(colors: [
+            inactiveColorWhite,
+            inactiveColorWhite,
+          ], end: Alignment.centerLeft, begin: Alignment.centerRight),
           borderRadius: BorderRadius.all(
             Radius.circular(10),
           ),
@@ -29,8 +29,8 @@ class secondBouton extends StatelessWidget {
         child: Text(
           btnText,
           style: TextStyle(
-              fontSize: 18,
-              color: blackColor,
+            fontSize: 18,
+            color: blackColor,
           ),
         ),
       ),
