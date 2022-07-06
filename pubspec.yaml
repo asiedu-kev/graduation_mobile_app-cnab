@@ -1,4 +1,4 @@
-name: cnab
+name: gestion_des_membres
 description: Find your patner with us
 authors:
   - kevin ASIEDU<kevinasiedu.contact@gmail.com>
@@ -34,7 +34,7 @@ dependencies:
   introduction_screen: ^2.1.0
   flutter_native_splash: ^1.2.3
   flutter_multi_formatter: ^2.4.1
-  flutter_swiper :
+  flutter_swiper:
   animated_floating_buttons: ^0.0.1
   draggable_fab: ^0.1.4
   flutter_swipable: ^1.2.1
@@ -44,8 +44,8 @@ dependencies:
   http: ^0.13.4
 
 
-   #he following adds the Cupertino Icons font to your application.
-   #Use with the CupertinoIcons class for iOS style icons.
+  #he following adds the Cupertino Icons font to your application.
+  #Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   pin_input_text_field: ^4.1.1
   flutter_svg: ^0.22.0

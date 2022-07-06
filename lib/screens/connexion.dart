@@ -1,9 +1,10 @@
-import 'package:cnab/screens/dashBoard.dart';
-import 'package:cnab/services/storage_service.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
+import 'package:gestion_des_membres/screens/dashBoard.dart';
+import 'package:gestion_des_membres/services/storage_service.dart';
 
 import '../components/QuoteButtonComponent.dart';
+import '../services/storage_service.dart';
 import '../utils/design.util.dart';
 import 'inscription.dart';
 
@@ -21,6 +22,7 @@ class _ConnexionState extends State<Connexion> {
   TextEditingController passwordController = new TextEditingController();
   List cred = [];
   bool? error = false;
+
   @override
   void initState() {
     super.initState();
@@ -28,14 +30,17 @@ class _ConnexionState extends State<Connexion> {
   }
 
   login() {
-    if (emailController.text.trim() == cred[0] && passwordController.text.trim() == cred[1]) {
+    if (emailController.text.trim() == cred[0] &&
+        passwordController.text.trim() == cred[1]) {
       Fluttertoast.showToast(msg: "Connexion réussie");
       setState(() {
         error = false;
       });
-      Navigator.push(context, MaterialPageRoute(builder: (context) => DashBoard()));
+      Navigator.push(
+          context, MaterialPageRoute(builder: (context) => DashBoard()));
     } else {
-      Fluttertoast.showToast(msg: "Connexion échouée", backgroundColor: Colors.red);
+      Fluttertoast.showToast(
+          msg: "Connexion échouée", backgroundColor: Colors.red);
       setState(() {
         error = true;
       });
@@ -68,7 +73,8 @@ class _ConnexionState extends State<Connexion> {
                   Container(
                     child: Text(
                       'Connexion',
-                      style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                     ),
                   ),
                   SizedBox(
@@ -201,7 +207,10 @@ class _ConnexionState extends State<Connexion> {
                       ),
                       GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context) => Inscription()));
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => Inscription()));
                           },
                           child: Container(
                             child: Text(

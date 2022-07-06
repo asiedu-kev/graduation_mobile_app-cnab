@@ -1,9 +1,9 @@
-import 'package:cnab/screens/splashScreen.dart';
-import 'package:cnab/translations.dart';
-import 'package:cnab/utils/design.util.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:gestion_des_membres/screens/splashScreen.dart';
+import 'package:gestion_des_membres/translations.dart';
+import 'package:gestion_des_membres/utils/design.util.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class MyApp extends StatefulWidget {
@@ -19,7 +19,9 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       title: 'Cnab',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(primaryColor: primaryColor, textTheme: GoogleFonts.poppinsTextTheme(Theme.of(context).textTheme)),
+      theme: ThemeData(
+          primaryColor: primaryColor,
+          textTheme: GoogleFonts.poppinsTextTheme(Theme.of(context).textTheme)),
       localizationsDelegates: [
         const TranslationsDelegate(),
         GlobalMaterialLocalizations.delegate,

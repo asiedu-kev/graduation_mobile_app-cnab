@@ -28,10 +28,12 @@ class _InscriptionState extends State<Inscription> {
         backgroundColor: clearGreen,
         textColor: Colors.white,
         fontSize: 16.0);
-    String? credentials = emailController.text.trim() + '-' + passwordController.text.trim();
+    String? credentials =
+        emailController.text.trim() + '-' + passwordController.text.trim();
     print(credentials);
     StorageService().setUserCredentials(credentials);
-    Navigator.push(context, MaterialPageRoute(builder: (context) => DashBoard()));
+    Navigator.push(
+        context, MaterialPageRoute(builder: (context) => DashBoard()));
   }
 
   @override
@@ -59,7 +61,8 @@ class _InscriptionState extends State<Inscription> {
                   Container(
                     child: Text(
                       'Inscription',
-                      style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                     ),
                   ),
                   SizedBox(
@@ -130,7 +133,7 @@ class _InscriptionState extends State<Inscription> {
                       autovalidateMode: AutovalidateMode.onUserInteraction,
                       obscureText: true,
                       decoration: InputDecoration(
-                          hintText: "Adresse mail",
+                          hintText: "Mot de passe",
                           filled: true,
                           fillColor: inactiveColor,
                           enabledBorder: OutlineInputBorder(
@@ -168,7 +171,8 @@ class _InscriptionState extends State<Inscription> {
                           if (_formKey.currentState!.validate()) {
                             register();
                           } else {
-                            Fluttertoast.showToast(msg: "Des erreurs dans votre soumission");
+                            Fluttertoast.showToast(
+                                msg: "Des erreurs dans votre soumission");
                           }
                         },
                         btnText: "M'inscrire",
@@ -187,7 +191,10 @@ class _InscriptionState extends State<Inscription> {
                       ),
                       GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context) => Connexion()));
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => Connexion()));
                           },
                           child: Container(
                             child: Text(

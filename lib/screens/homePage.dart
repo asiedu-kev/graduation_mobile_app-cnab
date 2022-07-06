@@ -1,6 +1,6 @@
-import 'package:cnab/screens/inscription.dart';
-import 'package:cnab/services/storage_service.dart';
 import 'package:flutter/material.dart';
+import 'package:gestion_des_membres/screens/inscription.dart';
+import 'package:gestion_des_membres/services/storage_service.dart';
 
 import '../components/QuoteButtonComponent.dart';
 import '../components/secondButton.dart';
@@ -51,7 +51,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 Container(
                   child: Text(
-                    'Bienvenue sur Lorem Ipsum\’application qui vous permet de gérer efficacement vos membres de pool.',
+                    'Bienvenue sur l\’application qui vous permet de collecter les informations de vos membres sans connexion internet.',
                     style: TextStyle(fontSize: 15),
                     textAlign: TextAlign.center,
                   ),
@@ -63,7 +63,10 @@ class _HomePageState extends State<HomePage> {
                   child: Center(
                     child: bouton(
                       onClick: () async {
-                        Navigator.push(context, MaterialPageRoute(builder: (context) => Inscription()));
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => Inscription()));
                       },
                       btnText: "Commencer",
                     ),
@@ -85,7 +88,10 @@ class _HomePageState extends State<HomePage> {
                   child: Center(
                     child: secondBouton(
                       onClick: () async {
-                        Navigator.push(context, MaterialPageRoute(builder: (context) => Connexion()));
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => Connexion()));
                       },
                       btnText: "J'ai deja un compte",
                     ),

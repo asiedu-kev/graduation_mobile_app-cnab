@@ -1,10 +1,11 @@
-import 'dart:io';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
+import '../services/storage_service.dart';
 import '../utils/design.util.dart';
+import 'connexion.dart';
 import 'parametre.dart';
 
 class DashBoard extends StatefulWidget {
@@ -17,9 +18,10 @@ class DashBoard extends StatefulWidget {
 class _DashBoardState extends State<DashBoard> {
   var selectedMember;
 
-  final List<String> taches = [
-    'AG-',
-    'CO-',
+  final List<String> menuList = [
+    'Ajouter un membre',
+    'Liste des membres',
+    'Synchroniser les membres'
   ];
 
   @override
@@ -75,7 +77,8 @@ class _DashBoardState extends State<DashBoard> {
                                       padding: EdgeInsets.only(right: 60),
                                       child: Text(
                                         'Jane Doe',
-                                        style: TextStyle(color: greyColor, fontSize: 20),
+                                        style: TextStyle(
+                                            color: greyColor, fontSize: 20),
                                       ),
                                     ),
                                     Container(
@@ -100,44 +103,32 @@ class _DashBoardState extends State<DashBoard> {
               child: Column(
                 children: [
                   Container(
-                      width: (MediaQuery.of(context).size.width * 0.72),
                       padding: EdgeInsets.only(right: 15),
                       decoration: BoxDecoration(
-                        boxShadow: [
-                          BoxShadow(
-                            blurRadius: 10.0,
-                            spreadRadius: -10.0,
-                            offset: Offset(-7, 2),
-                          )
-                        ],
                         borderRadius: BorderRadius.circular(30),
                       ),
-                      child: DropdownButtonFormField(
-                        items: taches.map((item) {
-                          return new DropdownMenuItem(
-                            value: item,
-                            child: new Text(item),
-                          );
-                        }).toList(),
-                        onChanged: (value) {
+                      child: DropdownButton<String>(
+                        hint: Text("Membres"),
+                        value: selectedMember,
+                        icon: const Icon(Icons.keyboard_arrow_down_outlined),
+                        elevation: 16,
+                        style: const TextStyle(color: Colors.black),
+                        underline: Container(
+                          height: 2,
+                          color: green,
+                        ),
+                        onChanged: (String? newValue) {
                           setState(() {
-                            print(value);
-                            selectedMember = value.toString();
+                            selectedMember = newValue!;
                           });
                         },
-                        decoration: InputDecoration(
-                            labelStyle: TextStyle(fontWeight: FontWeight.w600),
-                            hintText: "Membres",
-                            fillColor: inactiveColor,
-                            filled: true,
-                            focusColor: Colors.white,
-                            contentPadding: new EdgeInsets.symmetric(vertical: 15.0, horizontal: 10.0),
-                            enabledBorder: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(30.0),
-                              borderSide: BorderSide(
-                                color: inactiveColor,
-                              ),
-                            )),
+                        items: menuList
+                            .map<DropdownMenuItem<String>>((String value) {
+                          return DropdownMenuItem<String>(
+                            value: value,
+                            child: Text(value),
+                          );
+                        }).toList(),
                       )),
                   SizedBox(
                     height: 25,
@@ -166,7 +157,10 @@ class _DashBoardState extends State<DashBoard> {
                         ),
                         GestureDetector(
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context) => Parametre()));
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => Parametre()));
                           },
                           child: Container(
                             child: Text(
@@ -244,12 +238,18 @@ class _DashBoardState extends State<DashBoard> {
                         ),
                         GestureDetector(
                             onTap: () {
-                              exit(0);
+                              StorageService().setUserCredentials("");
+                              Navigator.pushAndRemoveUntil(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => Connexion()),
+                                  (route) => false);
                             },
                             child: Container(
                               child: Text(
                                 'Se déconnecter',
-                                style: TextStyle(fontSize: 18, color: greyColor),
+                                style:
+                                    TextStyle(fontSize: 18, color: greyColor),
                               ),
                             ))
                       ],
@@ -329,7 +329,8 @@ class _DashBoardState extends State<DashBoard> {
                       Container(
                         child: Text(
                           '1024',
-                          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 35),
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold, fontSize: 35),
                         ),
                       )
                     ],
@@ -419,7 +420,8 @@ class _DashBoardState extends State<DashBoard> {
                       Container(
                         child: Text(
                           '768',
-                          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 35),
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold, fontSize: 35),
                         ),
                       )
                     ],
@@ -459,7 +461,6 @@ class _DashBoardState extends State<DashBoard> {
                     color: inactiveColor,
                   ),
                   padding: EdgeInsets.all(12),
-                  height: MediaQuery.of(context).size.height * 0.15,
                   width: 250,
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.center,
@@ -475,7 +476,8 @@ class _DashBoardState extends State<DashBoard> {
                       Container(
                         child: Text(
                           '512',
-                          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 33),
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold, fontSize: 33),
                         ),
                       )
                     ],
@@ -493,7 +495,6 @@ class _DashBoardState extends State<DashBoard> {
                     borderRadius: BorderRadius.circular(10),
                     color: darkGreen,
                   ),
-                  height: MediaQuery.of(context).size.height * 0.15,
                   width: 70,
                   child: Column(
                     children: [
@@ -515,7 +516,6 @@ class _DashBoardState extends State<DashBoard> {
                     color: inactiveColor,
                   ),
                   padding: EdgeInsets.all(12),
-                  height: MediaQuery.of(context).size.height * 0.15,
                   width: 250,
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.center,
@@ -531,7 +531,8 @@ class _DashBoardState extends State<DashBoard> {
                       Container(
                         child: Text(
                           '64',
-                          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 33),
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold, fontSize: 33),
                         ),
                       )
                     ],
