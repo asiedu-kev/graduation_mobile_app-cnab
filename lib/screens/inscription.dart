@@ -18,6 +18,7 @@ class _InscriptionState extends State<Inscription> {
   final _formKey = GlobalKey<FormState>();
   TextEditingController emailController = new TextEditingController();
   TextEditingController passwordController = new TextEditingController();
+  TextEditingController nameController = new TextEditingController();
 
   void register() {
     Fluttertoast.showToast(
@@ -28,8 +29,11 @@ class _InscriptionState extends State<Inscription> {
         backgroundColor: clearGreen,
         textColor: Colors.white,
         fontSize: 16.0);
-    String? credentials =
-        emailController.text.trim() + '-' + passwordController.text.trim();
+    String? credentials = emailController.text.trim() +
+        '-' +
+        passwordController.text.trim() +
+        '-' +
+        nameController.text.trim();
     print(credentials);
     StorageService().setUserCredentials(credentials);
     Navigator.push(
@@ -73,6 +77,41 @@ class _InscriptionState extends State<Inscription> {
                       'Veuillez saisir les informations demandées pour vous inscire.',
                       style: TextStyle(fontSize: 15),
                       textAlign: TextAlign.center,
+                    ),
+                  ),
+                  SizedBox(
+                    height: 27,
+                  ),
+                  Container(
+                    height: 50,
+                    child: TextFormField(
+                      keyboardType: TextInputType.emailAddress,
+                      controller: nameController,
+                      validator: (value) {
+                        if (value == null || value.isEmpty) {
+                          return "Nom et prénoms";
+                        } else {
+                          return null;
+                        }
+                      },
+                      autovalidateMode: AutovalidateMode.onUserInteraction,
+                      decoration: InputDecoration(
+                          hintText: "Nom et prénom",
+                          filled: true,
+                          fillColor: inactiveColor,
+                          enabledBorder: OutlineInputBorder(
+                              borderSide: BorderSide(
+                            color: inactiveColor,
+                          )),
+                          border: OutlineInputBorder(),
+                          errorBorder: OutlineInputBorder(
+                              borderSide: BorderSide(
+                            color: inactiveColor,
+                          )),
+                          focusedErrorBorder: OutlineInputBorder(
+                              borderSide: BorderSide(
+                            color: inactiveColor,
+                          ))),
                     ),
                   ),
                   SizedBox(

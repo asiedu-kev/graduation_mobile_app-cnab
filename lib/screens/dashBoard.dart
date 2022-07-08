@@ -3,6 +3,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
+import '../database/member_helper.dart';
 import '../services/storage_service.dart';
 import '../utils/design.util.dart';
 import 'connexion.dart';
@@ -23,9 +24,28 @@ class _DashBoardState extends State<DashBoard> {
     'Liste des membres',
     'Synchroniser les membres'
   ];
+  int numberOfMembers = 0;
+  String? credentials = StorageService().getUserCredentials();
+  List cred = [];
+
+  @override
+  void initState() {
+    super.initState();
+    fetchUserSaved();
+    cred = credentials!.split('-');
+  }
+
+  fetchUserSaved() {
+    MemberHelper().members().then((value) {
+      setState(() {
+        numberOfMembers = value.length;
+      });
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
+    print(numberOfMembers);
     return Scaffold(
       drawer: Drawer(
           child: Container(
@@ -76,7 +96,9 @@ class _DashBoardState extends State<DashBoard> {
                                     Container(
                                       padding: EdgeInsets.only(right: 60),
                                       child: Text(
-                                        'Jane Doe',
+                                        '${cred[2]}',
+                                        softWrap: true,
+                                        overflow: TextOverflow.ellipsis,
                                         style: TextStyle(
                                             color: greyColor, fontSize: 20),
                                       ),
@@ -84,7 +106,9 @@ class _DashBoardState extends State<DashBoard> {
                                     Container(
                                       padding: EdgeInsets.only(left: 15),
                                       child: Text(
-                                        'janedoe@gmail.com',
+                                        '${cred[0]}',
+                                        softWrap: true,
+                                        overflow: TextOverflow.ellipsis,
                                         style: TextStyle(fontSize: 15),
                                       ),
                                     ),
@@ -107,29 +131,52 @@ class _DashBoardState extends State<DashBoard> {
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(30),
                       ),
-                      child: DropdownButton<String>(
-                        hint: Text("Membres"),
-                        value: selectedMember,
-                        icon: const Icon(Icons.keyboard_arrow_down_outlined),
-                        elevation: 16,
-                        style: const TextStyle(color: Colors.black),
-                        underline: Container(
-                          height: 2,
-                          color: green,
-                        ),
-                        onChanged: (String? newValue) {
-                          setState(() {
-                            selectedMember = newValue!;
-                          });
-                        },
-                        items: menuList
-                            .map<DropdownMenuItem<String>>((String value) {
-                          return DropdownMenuItem<String>(
-                            value: value,
-                            child: Text(value),
-                          );
-                        }).toList(),
-                      )),
+                      child: PopupMenuButton(
+                          child: Text("Membre"),
+                          itemBuilder: (context) {
+                            return <PopupMenuEntry<Widget>>[
+                              PopupMenuItem(
+                                  child: InkWell(
+                                onTap: () {},
+                                child: Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Container(
+                                      child: Center(
+                                          child: Text('',
+                                              style: TextStyle(
+                                                  fontSize: 14,
+                                                  fontWeight: FontWeight.w500,
+                                                  color: Colors.black))),
+                                    ),
+                                    Icon(Icons.mode_edit_outline, color: green)
+                                  ],
+                                ),
+                              )),
+                              PopupMenuItem(
+                                child: InkWell(
+                                    onTap: () {},
+                                    child: Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Container(
+                                          child: const Center(
+                                              child: Text(
+                                                  'Supprimer le commentaire',
+                                                  style: TextStyle(
+                                                    fontSize: 14,
+                                                    fontWeight: FontWeight.w500,
+                                                    color: Colors.black,
+                                                  ))),
+                                        ),
+                                        Icon(Icons.delete, color: Colors.red)
+                                      ],
+                                    )),
+                              )
+                            ];
+                          })),
                   SizedBox(
                     height: 25,
                   ),
