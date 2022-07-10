@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "id": 1 ,
+      "name": "Mina"
+
+    },
+    {
+      "id": 2,
+      "name": "Fon"
+
+    },
+    {
+      "id": 3,
+      "name": "Nago"
+    }    ,
+    {
+      "id": 4,
+      "name": "Français"
+    },
+    {
+      "id": 5,
+      "name": "Ditamari"
+    },
+    {
+      "id": 6,
+      "name": "Waama"
+    } ,
+    {
+      "id": 7,
+      "name": "Bariba"
+    },
+    {
+      "id": 8,
+      "name": "Dendi"
+    },
+    {
+      "id": 9,
+      "name": "Biali"
+    },
+    {
+      "id": 10,
+      "name": "Peulh"
+    },
+    {
+      "id": 11,
+      "name": "Adja"
+    },
+    {
+      "id": 12,
+      "name": "Ani"
+    }
+    ,
+    {
+      "id": 13,
+      "name": "Idacha"
+    },
+    
+    {
+      "id": 14,
+      "name": "Mahi"
+    }
+  ]
+}

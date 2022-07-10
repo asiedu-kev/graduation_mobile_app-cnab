@@ -1,5 +1,3 @@
-import 'dart:convert';
-
 import 'package:gestion_des_membres/database/database_helper.dart';
 import 'package:gestion_des_membres/models/Member.dart';
 import 'package:sqflite/sqflite.dart';
@@ -22,6 +20,7 @@ class MemberHelper {
         "date_of_birth": member.dateOfBirth,
         "birthplace": member.birthplace,
         "nationality": member.nationality,
+        "profession": member.profession,
         "category": member.category,
         "sub_category": member.subCategory,
         "language": member.language,
@@ -52,10 +51,12 @@ class MemberHelper {
         "main_service": member.mainService,
         "secondary_service": member.secondaryService,
         "occasional_service": member.secondaryService,
-        "need_help1": member.needHelp1,
-        "need_help2": member.needHelp2,
-        "need_help3": member.needHelp3,
-        "data_added": jsonEncode(member.dateAdded)
+        "need_help_1": member.needHelp1,
+        "need_help_2": member.needHelp2,
+        "need_help_3": member.needHelp3,
+        "inscription_fee": member.inscriptionFee,
+        "membership_fee": member.membershipFee,
+        "date_added": member.dateAdded.toString()
       },
       conflictAlgorithm: ConflictAlgorithm.replace,
     );
@@ -74,6 +75,7 @@ class MemberHelper {
         "date_of_birth": maps[i]['date_of_birth'],
         "birthplace": maps[i]['birthplace'],
         "nationality": maps[i]['nationality'],
+        "profession": maps[i]["profession"],
         "category": maps[i]['category'],
         "sub_category": maps[i]['sub_category'],
         "language": maps[i]['language'],
@@ -104,10 +106,12 @@ class MemberHelper {
         "main_service": maps[i]['main_service'],
         "secondary_service": maps[i]['secondary_service'],
         "occasional_service": maps[i]['occasional_service'],
-        "need_help1": maps[i]['need_help1'],
-        "need_help2": maps[i]['need_help2'],
-        "need_help3": maps[i]['need_help_3'],
-        "data_added": jsonDecode(maps[i]['date_added'])
+        "need_help_1": maps[i]['need_help_1'],
+        "need_help_2": maps[i]['need_help_2'],
+        "need_help_3": maps[i]['need_help_3'],
+        "inscription_fee": maps[i]['inscription_fee'],
+        "membership_fee": maps[i]['membership_fee'],
+        "date_added": maps[i]['date_added']
       });
     });
   }
@@ -126,6 +130,7 @@ class MemberHelper {
         "date_of_birth": maps[i]['date_of_birth'],
         "birthplace": maps[i]['birthplace'],
         "nationality": maps[i]['nationality'],
+        "profession": maps[i]["profession"],
         "category": maps[i]['category'],
         "sub_category": maps[i]['sub_category'],
         "language": maps[i]['language'],
@@ -156,10 +161,12 @@ class MemberHelper {
         "main_service": maps[i]['main_service'],
         "secondary_service": maps[i]['secondary_service'],
         "occasional_service": maps[i]['occasional_service'],
-        "need_help1": maps[i]['need_help1'],
-        "need_help2": maps[i]['need_help2'],
-        "need_help3": maps[i]['need_help_3'],
-        "data_added": jsonDecode(maps[i]['date_added'])
+        "need_help_1": maps[i]['need_help_1'],
+        "need_help_2": maps[i]['need_help_2'],
+        "need_help_3": maps[i]['need_help_3'],
+        "inscription_fee": maps[i]['inscription_fee'],
+        "membership_fee": maps[i]['membership_fee'],
+        "date_added": maps[i]['date_added']
       });
     });
   }

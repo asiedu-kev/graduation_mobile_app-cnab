@@ -26,7 +26,7 @@ class _InscriptionState extends State<Inscription> {
         toastLength: Toast.LENGTH_SHORT,
         gravity: ToastGravity.CENTER,
         timeInSecForIosWeb: 1,
-        backgroundColor: clearGreen,
+        backgroundColor: clearprimaryColor,
         textColor: Colors.white,
         fontSize: 16.0);
     String? credentials = emailController.text.trim() +

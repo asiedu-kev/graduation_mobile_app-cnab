@@ -34,7 +34,7 @@ class DbHelper {
   Future _onCreate(Database db, int version) async {
     await db.execute(
         'CREATE TABLE members(id INTEGER PRIMARY KEY, first_name TEXT,last_name TEXT,'
-        ' gender INTEGER, date_of_birth TEXT, birthplace TEXT, '
+        ' gender INTEGER, date_of_birth TEXT, birthplace TEXT, profession TEXT, '
         'nationality TEXT, category TEXT,sub_category TEXT, language TEXT,'
         ' department TEXT, municipality TEXT, district TEXT, locality TEXT,'
         'address TEXT, longitude FLOAT, latitude FLOAT, phone TEXT,'
@@ -43,6 +43,6 @@ class DbHelper {
         'denomination TEXT, trade_name TEXT, acronym TEXT, primary_sector TEXT, '
         'primary_activity TEXT, secondary_sector TEXT, secondary_activity TEXT, '
         'creation_date TEXT, registration TEXT, main_service TEXT, secondary_service TEXT,'
-        ' occasional_service TEXT, need_help_1 TEXT, need_help2 TEXT, need_help3 TEXT, date_added TEXT)');
+        ' occasional_service TEXT, need_help_1 TEXT, need_help_2 TEXT, need_help_3 TEXT, inscription_fee FLOAT, membership_fee FLOAT, date_added TEXT)');
   }
 }

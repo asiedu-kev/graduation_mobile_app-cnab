@@ -9,11 +9,12 @@ part of 'Member.dart';
 Member _$MemberFromJson(Map<String, dynamic> json) => Member()
   ..id = json['id'] as int?
   ..firstName = json['first_name'] as String?
-  ..lastName = json['last_name'] as int?
+  ..lastName = json['last_name'] as String?
   ..gender = json['gender'] as String?
   ..dateOfBirth = json['date_of_birth'] as String?
   ..birthplace = json['birthplace'] as String?
   ..nationality = json['nationality'] as String?
+  ..profession = json['profession'] as String?
   ..category = json['category'] as String?
   ..subCategory = json['sub_category'] as String?
   ..language = json['language'] as String?
@@ -47,6 +48,8 @@ Member _$MemberFromJson(Map<String, dynamic> json) => Member()
   ..needHelp1 = json['need_help1'] as String?
   ..needHelp2 = json['need_help2'] as String?
   ..needHelp3 = json['need_help3'] as String?
+  ..inscriptionFee = (json['inscription_fee'] as num?)?.toDouble()
+  ..membershipFee = (json['membership_fee'] as num?)?.toDouble()
   ..dateAdded = DateTime.parse(json['date_added'] as String);
 
 Map<String, dynamic> _$MemberToJson(Member instance) => <String, dynamic>{
@@ -57,6 +60,7 @@ Map<String, dynamic> _$MemberToJson(Member instance) => <String, dynamic>{
       'date_of_birth': instance.dateOfBirth,
       'birthplace': instance.birthplace,
       'nationality': instance.nationality,
+      'profession': instance.profession,
       'category': instance.category,
       'sub_category': instance.subCategory,
       'language': instance.language,
@@ -90,5 +94,7 @@ Map<String, dynamic> _$MemberToJson(Member instance) => <String, dynamic>{
       'need_help1': instance.needHelp1,
       'need_help2': instance.needHelp2,
       'need_help3': instance.needHelp3,
+      'inscription_fee': instance.inscriptionFee,
+      'membership_fee': instance.membershipFee,
       'date_added': instance.dateAdded.toIso8601String(),
     };

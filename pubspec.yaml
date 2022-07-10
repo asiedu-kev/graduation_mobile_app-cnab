@@ -55,13 +55,17 @@ dependencies:
   fluttertoast: ^8.0.9
   sqflite: ^2.0.3
   flutter_screen_lock: ^7.0.2
+  nb_utils: ^4.5.2
+  logger: ^1.1.0
+  flutter_spinkit: ^5.1.0
+  intl: ^0.17.0
 
 
 dev_dependencies:
   http: ^0.13.4
   build_runner: ^2.1.1
   json_serializable: ^5.0.0
-  
+
   flutter_test:
     sdk: flutter
 flutter_icons:
@@ -90,26 +94,14 @@ flutter:
   assets:
     - locale/i18n_en.json
     - locale/i18n_fr.json
-    - assets/json/countries.json
-    - assets/svg/logo.svg
-    - assets/svg/drawer.svg
-    - assets/images/refresh_icon.svg
-    - assets/images/close_icon.svg
-    - assets/images/star_icon.svg
-    - assets/images/like_icon.svg
-    - assets/images/thunder_icon.svg
+    - assets/json/
+    - assets/images/
     #- assets/svg/ic_outline_heart.svg
     #- assets/svg/ic_pick_profile.svg
-    - assets/lotties/heart.json
-    - assets/png/logo.png
-    - assets/png/member.png
-    - assets/png/categorie.png
-    - assets/png/entreprise.png
-    - assets/png/profil.png
-    - assets/png/parametre.png
-    - assets/png/dashBlack.png
-    - assets/png/deconnection.png
-    - assets/svg/drawer.svg
+    - assets/lotties/
+    - assets/png/
+    - assets/svg/
+    - assets/src/
     #- assets/png/img_onboarding_center.png
     #- assets/png/ing_onboarding_left.png
     #- assets/png/ing_onboarding_right.png

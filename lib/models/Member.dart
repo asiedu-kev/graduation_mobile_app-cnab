@@ -8,12 +8,13 @@ class Member {
   @JsonKey(name: 'first_name')
   String? firstName;
   @JsonKey(name: 'last_name')
-  int? lastName;
+  String? lastName;
   String? gender;
   @JsonKey(name: 'date_of_birth')
   String? dateOfBirth;
   String? birthplace;
   String? nationality;
+  String? profession;
   String? category;
   @JsonKey(name: 'sub_category')
   String? subCategory;
@@ -65,6 +66,10 @@ class Member {
   String? needHelp2;
   @JsonKey(name: 'need_help3')
   String? needHelp3;
+  @JsonKey(name: 'inscription_fee')
+  double? inscriptionFee;
+  @JsonKey(name: "membership_fee")
+  double? membershipFee;
   @JsonKey(name: "date_added")
   late DateTime dateAdded = DateTime.now();
 
