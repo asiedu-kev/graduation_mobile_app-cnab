@@ -129,7 +129,7 @@ class _DashBoardState extends State<DashBoard> {
                       ),
                       Container(
                         child: Text(
-                          '2',
+                          '$numberOfMembers',
                           style: TextStyle(
                               fontWeight: FontWeight.bold, fontSize: 35),
                         ),
@@ -276,7 +276,7 @@ class _DashBoardState extends State<DashBoard> {
                       ),
                       Container(
                         child: Text(
-                          '1',
+                          '$numberOfPersonnePhysiqueExploitant',
                           style: TextStyle(
                               fontWeight: FontWeight.bold, fontSize: 33),
                         ),
@@ -332,7 +332,7 @@ class _DashBoardState extends State<DashBoard> {
                       ),
                       Container(
                         child: Text(
-                          '1',
+                          '$numberOfPersonnePhysiqueNonExploitant',
                           style: TextStyle(
                               fontWeight: FontWeight.bold, fontSize: 33),
                         ),
