@@ -53,52 +53,60 @@ class _MembersPageState extends State<MembersPage> {
           title: Text("Liste des membres"),
         ),
         body: Column(
-          children: members
-              .map((member) => Container(
-                  margin: EdgeInsets.all(15),
-                  decoration: BoxDecoration(
-                      boxShadow: [
-                        BoxShadow(
-                          blurRadius: 6.0,
-                          spreadRadius: -5.0,
-                          offset: Offset(0, 0),
-                        )
-                      ],
-                      color: Color(0xFFFAFAFA),
-                      borderRadius: BorderRadius.circular(10)),
-                  padding: EdgeInsets.all(12),
-                  child: Row(children: [
-                    Container(
-                      child: Image.asset(
-                        'assets/png/profile.png',
-                        height: 55,
-                      ),
-                    ),
-                    15.width,
-                    Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            "${member.lastName}  ${member.firstName}",
-                            style: TextStyle(fontWeight: FontWeight.bold),
+          children: members.length <= 0
+              ? [
+                  Container(
+                      height: 300,
+                      child: Center(
+                          child: Text("Aucun membre inscrit pour le moment")))
+                ]
+              : members
+                  .map((member) => Container(
+                      margin: EdgeInsets.all(15),
+                      decoration: BoxDecoration(
+                          boxShadow: [
+                            BoxShadow(
+                              blurRadius: 6.0,
+                              spreadRadius: -5.0,
+                              offset: Offset(0, 0),
+                            )
+                          ],
+                          color: Color(0xFFFAFAFA),
+                          borderRadius: BorderRadius.circular(10)),
+                      padding: EdgeInsets.all(12),
+                      child: Row(children: [
+                        Container(
+                          child: Image.asset(
+                            'assets/png/profile.png',
+                            height: 55,
                           ),
-                          Text("${member.category}",
-                              style: TextStyle(fontWeight: FontWeight.normal)),
-                          RichText(
-                              text: TextSpan(
-                                  style: const TextStyle(
-                                    fontSize: 16.0,
-                                    color: Colors.black,
-                                  ),
-                                  children: [
-                                TextSpan(
-                                    text: "(00229)",
-                                    style: TextStyle(fontSize: 12)),
-                                TextSpan(text: " ${member.phone}")
-                              ]))
-                        ])
-                  ])))
-              .toList(),
+                        ),
+                        15.width,
+                        Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "${member.lastName}  ${member.firstName}",
+                                style: TextStyle(fontWeight: FontWeight.bold),
+                              ),
+                              Text("${member.category}",
+                                  style:
+                                      TextStyle(fontWeight: FontWeight.normal)),
+                              RichText(
+                                  text: TextSpan(
+                                      style: const TextStyle(
+                                        fontSize: 16.0,
+                                        color: Colors.black,
+                                      ),
+                                      children: [
+                                    TextSpan(
+                                        text: "(00229)",
+                                        style: TextStyle(fontSize: 12)),
+                                    TextSpan(text: " ${member.phone}")
+                                  ]))
+                            ])
+                      ])))
+                  .toList(),
         ));
   }
 }
